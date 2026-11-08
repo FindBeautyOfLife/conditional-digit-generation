@@ -1,4 +1,6 @@
-# 基于条件扩散模型的手写数字生成
+# Conditional Digit Generation
+
+基于条件扩散模型的手写数字生成
 
 本项目使用 MNIST 数据集实现按标签生成手写数字的条件 DDPM，并提供 Conditional GAN 和 Conditional CVAE 作为对比模型。所有训练脚本均会自动下载 MNIST 数据集，并根据运行环境自动选择 CUDA 或 CPU。
 
