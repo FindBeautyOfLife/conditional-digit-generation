@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments and editor settings
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Downloaded data
+data/
+
+# Model checkpoints
+*.pth
+
+# Generated training and sampling outputs
+ddpm_conditional_results/
+generated_digits_output/
+gan_conditional_results/
+gan_generated_digits_output/
+cvae_conditional_results/
+cvae_generated_digits_output/
+
+# Temporary render and report artifacts
+render_*/
+report_render/
+report_assets/
+formula_assets/
+
